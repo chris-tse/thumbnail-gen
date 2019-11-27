@@ -1,0 +1,37 @@
+{
+  "name": "thumbnail-gen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "bin": {
+    "thumbnail-gen": "lib/index.js"
+  },
+  "scripts": {
+    "start": "node lib/index.js",
+    "build": "babel src -d lib",
+    "watch": "babel src -d lib --watch",
+    "prettier": "prettier --write \"src/**\"",
+    "prettier:check": "prettier -l \"src/**\"",
+    "lint": "eslint .",
+    "style": "npm run prettier && npm run lint",
+    "style:check": "npm run prettier:check && npm run lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.7.4",
+    "@babel/node": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.7.1",
+    "eslint-plugin-babel": "^5.3.0",
+    "prettier": "^1.19.1"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^4.0.1",
+    "figlet": "^1.2.4"
+  }
+}
