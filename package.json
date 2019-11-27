@@ -1,7 +1,7 @@
 {
   "name": "thumbnail-gen",
   "version": "1.0.0",
-  "description": "",
+  "description": "A CLI for generating URLs of YouTube thumbails from the Cloudinary database",
   "main": "src/index.js",
   "bin": {
     "thumbnail-gen": "lib/index.js"
