@@ -3,7 +3,6 @@ extends: 'eslint:recommended'
 rules:
     eqeqeq: 2
     no-unexpected-multiline: 2
-    # valid-jsdoc: 2
     dot-notation: 2
     no-caller: 2
     no-eval: 2
@@ -65,15 +64,11 @@ rules:
     semi-spacing: 2
     semi: [2, always]
     keyword-spacing: 2
-    # space-after-keywords: [2, always]
-    # space-before-keywords: [2, always]
-    # space-return-throw-case: 2
     space-before-blocks: [2, always]
     space-before-function-paren: [2, never]
     space-in-parens: [2, never]
     space-infix-ops: 2
 env:
-    browser: true
     node: true
     es6: true
     mocha: true
@@ -84,37 +79,18 @@ parserOptions:
     ecmaFeatures:
         classes: true
         modules: true
-        jsx: true
-        experimentalObjectRestSpread: true
     sourceType: 'module'
 globals:
     afterAll: true
     afterEach: true
     expect: true
-    Back: true
     beforeAll: true
     beforeEach: true
-    CSSPlugin: true
     define: true
     describe: true
-    Draggable: true
-    findByDataAutomation: true
     it: true
     jest: true
     mocha: true
-    mockComponent: true
-    mockServer: true
-    mount: true
-    Power1: true
-    Power2: true
-    Power3: true
-    React: true
-    sandbox: true
-    shallow: true
     sinon: true
-    SlowMo: true
-    TimelineLite: true
-    TweenLite: true
-    TweenMax: true
 plugins:
     - 'babel'
