@@ -10,6 +10,19 @@ Install this package globally from NPM:
 $ npm i -g @chris-tse/thumbnail-gen
 ```
 
+## Basic Usage
+
+To see all available options, run the command with the help flag:
+```
+$ thumbnail-gen --help
+```
+
+Specify all required options to generate a thumbnail with the desired info:
+
+```
+$ thumbnail-gen -t "A Great Talk" -s "Person Name" -g "OKC JS" -l okc-js -b code
+```
+
 You can now access the `thumbnail-gen` command via your terminal.
 
 ## Development
