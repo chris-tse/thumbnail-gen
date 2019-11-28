@@ -4,7 +4,13 @@ Techlahoma Thumbnail Generator is a CLI tool for generating YouTube video thumbn
 
 ## Installation
 
-_To be updated when published to NPM._
+Install this package globally from NPM:
+
+```
+$ npm i -g @chris-tse/thumbnail-gen
+```
+
+You can now access the `thumbnail-gen` command via your terminal.
 
 ## Development
 
