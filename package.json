@@ -1,5 +1,5 @@
 {
-  "name": "thumbnail-gen",
+  "name": "@chris-tse/thumbnail-gen",
   "version": "1.0.0",
   "description": "A CLI for generating URLs of YouTube thumbails from the Cloudinary database",
   "main": "src/index.js",
